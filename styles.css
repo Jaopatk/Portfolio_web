@@ -1,54 +1,35 @@
 body {
-	overflow: hidden;
 	margin: 0;
 	font-family: "Limelight", sans-serif;
-	text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;overflow-x: hidden;
 }
-nav {  background-color: #fff;
-	z-index: 9;
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+}
+.navbar {
+	z-index: 100;
+	background-color: wheat;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
   }
+  
 
-.well {
+/*snap scroll*/
+.container2 {
 	position: relative;
-	overflow: hidden;
-	transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
-}
-
-.top {
-	font-size: 80%;
-	color: hsla(0, 0%, 100%, .25);
-	position: relative;
-	top: -.2em;
-	cursor: pointer;
-}
-
-.panel {
-	position: relative;
+	width: 100%;
 	height: 100vh;
-	overflow: hidden;
-	font-size: 10vmin;
-	padding: 1em;
-	box-sizing: border-box;
-	color: hsla(0, 0%, 100%, .1);
-	cursor: default;
-}
-
-.panel:nth-child(1) {
-	background: #012345;
-}
-
-.panel:nth-child(2) {
-	background: #123456;
-}
-
-.panel:nth-child(3) {
-	background: #234567;
-}
-
-.panel:nth-child(4) {
-	background: #345678;
-}
-
-.panel:nth-child(5) {
-	background: #456789;
-}
+	scroll-behavior: smooth;
+	overflow: auto;
+	scroll-snap-type: y mandatory;
+  
+  }
+  .section {
+	width: 100%;
+	height: 100vh;
+	background-size:  cover;
+	scroll-snap-align: start;
+  }
+  .section:nth-child(1) {
+  }
