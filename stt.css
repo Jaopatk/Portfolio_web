@@ -1,5 +1,5 @@
 *{
-  font-family: 'League Spartan', sans-serif !important;
+  font-family: 'League Spartan', sans-serif;
 }
 
 body {
@@ -18,8 +18,8 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-  -webkit-backdrop-filter: blur(1px);
-  backdrop-filter: blur(1px);
+ /* -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);*/
 }
 
 .section{
@@ -27,14 +27,9 @@ body {
 	width: 100%;
   justify-content: center;  
 	align-items: center;
+  padding: auto;
 }
 
-.section:nth-child(2) {
-  background: url(https://cdn.pixabay.com/photo/2015/06/02/12/59/narrative-794978_960_720.jpg)!important;
-}
-.section:nth-child(3) {
-  background: url(https://cdn.pixabay.com/photo/2015/06/02/12/59/narrative-794978_960_720.jpg)!important;
-}
 
 .home_txt{
   color:black;
@@ -42,7 +37,19 @@ body {
 	font-size: 4vh;
 }
 
-.btn {
+.container{
+  margin: 0;
+}
+
+.about{
+  color:black;
+	text-align: left;
+	font-size: auto;
+  padding: 10px;
+}
+
+
+.button {
 	background-color:transparent !important;
 	border-radius:30px;
 	border:1px solid #ffffff;
@@ -56,6 +63,7 @@ body {
 
 
 
+
 /*gradient*/
 .wrapper {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -64,6 +72,16 @@ body {
 	display: flex;
 	justify-content: center;  
 	align-items: center;
+}
+.wrapper:nth-child(3) {
+  background: linear-gradient(-60deg, #B06AB3,#5B86E5, #1CB5E0,#0575E6);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+
+}.wrapper:nth-child(4) {
+  background: linear-gradient(-45deg, #00F260,#36D1DC,#5B86E5,#0575E6);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
