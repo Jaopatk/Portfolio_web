@@ -4,7 +4,6 @@
 }
 
 body {
-  font-size: 8pv;
   margin: 0px;
   overflow-x: hidden;
 }
@@ -18,9 +17,8 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
- /* -webkit-backdrop-filter: blur(1px);
-  backdrop-filter: blur(1px);*/
 }
+
 
 .button {
 	background-color:transparent !important;
@@ -35,13 +33,14 @@ body {
 
 }
 
-.contract{
-  background-color: #000000;
-}
-
 .home_txt {
   color:black;
 	font-size: 4vh;
+}
+
+.about{
+  color:black;
+	font-size: 3vh;
 }
 
 .container {
@@ -59,7 +58,7 @@ body {
 
 
 /*gradient*/
-/*.wrapper {
+.wrapper {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -103,4 +102,4 @@ body {
   .title {
     font-size: 5rem;
   }
-}*/
+}
