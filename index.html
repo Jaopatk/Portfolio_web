@@ -8,10 +8,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="stt.css">
+  <link rel="stylesheet" href="styles.css">
 
   <!--icon-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.0/css/all.css">
+
+  <!--Fullpage-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js">
 
   <!-- font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,75 +44,72 @@
             <a class="nav-link" href="#Home">Home <span class="visually-hidden">(current)</span></a>
           </li>
           <a class="nav-link" href="#About">About</a>
-          <a class="nav-link" href="#skill">Skill</a>
-          <a class="nav-link" href="#contract">Contract</a>
+          <a class="nav-link" href="#Skill">Skill</a>
+          <a class="nav-link" href="#Contract">Contract</a>
         </ul>
       </div>
     </div>
   </nav>
 
 
-
-  <!--home-->
-  <section id="Home" class="section wrapper">
-    <div class="container">
-      <p class="home_txt">
-        Hello, My name is <b>Pakkapond Pipattanasookmongkol.</b>
-        <br>
-        I'm 3rd year computer Engineering student at Mahidol
-        University.
-      </p>
-      <button type="button" class="button btn-outline-dark ">Download Resume</button>
-    </div>
-  </section>
-
-
-  <!--about-->
-  <section id="About" class="section wrapper">
-    <div class="container">
-      <p class="about">
-        Mahidol University @Salaya, Nakhon Pathom
-        <br><span style="float:right;">2019 – Present</span>
-        <br>
-        Bachelor of Engineering in Computer Engineering <br><span style="float:right;">Expect Graduation, April
-          2023</span>
-        </plass=>
-    </div>
-  </section>
-
-  <!--skill-->
-  <section id="skill" class="section wrapper">
-    <div class="container">
-      <p class="home_txt">
-        c, c++, <i class="fa-brands fa-java">,</i> <i class="fa-brands fa-python">,</i> <i class="fab fa-html5"></i> ,<i
-          class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i>
-      </p>
-    </div>
-  </section>
+  <div id="fullpage">
+    <!--home-->
+    <section class="section s1 wrapper">
+      <div class="container ">
+        <p class="home_txt">
+          Hello, My name is <b>Pakkapond Pipattanasookmongkol.</b>
+          <br>
+          I'm 3rd year Computer Engineering student at Mahidol
+          University.
+        </p>
+        <button type="button" class="button btn-outline-dark " hef="1-4.pdf">Download Resume</button>
+      </div>
+    </section>
 
 
-  <!--contract-->
-  <footer id="contract" >
-    <div class="container footer">
-      <p>
-        <!-- mail -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #acacac;" href="mailto:Jaopatk@gmail.com"><i  class="fa-solid fa-envelope"></i></a>
-        <!-- Linkedin -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="https://www.linkedin.com/in/jaopipat/" target="_blank" role="button"><i class="fa-brands fa-linkedin-in"></i></a>
-        <!-- Github -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="https://github.com/Jaopatk" target="_blank" role="button"><i
-            class="fa-brands fa-github"></i></a>  
-      </p>
-      <p>Created by Jaopatk<br>
-    </div>
-  </footer>
+    <!--about-->
+    <section class="section s2 wrapper">
+      <div class="container">
+        <p class="about">
+          <h1>About me</h1>
+          <br>
+          Mahidol University @Salaya, Nakhon Pathom
+          <br><span style="float:right;">2019 – Present</span>
+          <br>
+          Bachelor of Engineering in Computer Engineering <br><span style="float:right;">Expect Graduation, April
+            2023</span>
+        </p>
+      </div>
+    </section>
+
+        <!-- contract -->
+    <section  class="section s4 wrapper">
+      <div class="container">
+        <p>
+          <!-- mail -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #acacac;"
+            href="mailto:Jaopatk@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+          <!-- Linkedin -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
+            href="https://www.linkedin.com/in/jaopipat/" target="_blank" role="button"><i
+              class="fa-brands fa-linkedin-in"></i></a>
+          <!-- Github -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
+            href="https://github.com/Jaopatk" target="_blank" role="button"><i class="fa-brands fa-github"></i></a>
+        </p>
+        <p>Created by Jaopatk<br>
+      </div>
+    </section>
 
 
 
+  
+  <!-- Fullpage Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+  <script src="fullpages.js"></script>
+  <script src="app.js"></script>
 
   <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
-
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
   </script>

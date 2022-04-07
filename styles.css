@@ -1,0 +1,106 @@
+*{
+  font-family: 'League Spartan', sans-serif;
+
+}
+
+body {
+  font-size: 8pv;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	/* Remove scrollbar space */
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+ /* -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);*/
+}
+
+.button {
+	background-color:transparent !important;
+	border-radius:30px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	font-size:2.5vh;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+
+}
+
+.contract{
+  background-color: #000000;
+}
+
+.home_txt {
+  color:black;
+	font-size: 4vh;
+}
+
+.container {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; 
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+
+
+/*gradient*/
+/*.wrapper {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+.wrapper:nth-child(2) {
+  background: linear-gradient(-60deg, #B06AB3,#5B86E5, #1CB5E0,#0575E6);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+
+}.wrapper:nth-child(3) {
+  background: linear-gradient(-45deg, #00F260,#36D1DC,#5B86E5,#0575E6);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 200s linear infinite;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+    font-size: 5rem;
+  }
+}*/
